@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Modern Login Page</title>
+</head>
+<body>
+    
+    <!-- #Sign-Up -->
+     
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1>Crie sua conta</h1>
+
+                <!-- #Icons-->
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-microsoft"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-apple"></i></a>
+                </div>
+
+                <!-- #Input Register Email -->
+                <span>Cadastre-se com seu e-mail</span>
+
+                <input type="text" placeholder="Nome">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Senha">
+
+                <!-- #Button -->
+                <button>Cadastre-se</button>
+
+            </form>
+        </div>
+
+        <!-- #Sing-In -->
+        <div class="form-container sign-in">
+            <form>
+                <h2>Entre na sua conta</h2>
+
+                <!-- #Icons-->
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-microsoft"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-apple"></i></a>
+                </div>
+
+                <!-- #Input Register Email -->
+                <span>Entre com e-mail e senha</span>
+
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Senha">
+
+                <!-- #Link Forget your Password -->
+                <a href="#">Esqueceu sua senha?</a>
+
+                <!-- #Button -->
+                <button>Entre</button>
+                
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h2>Insira seus dados para entrar</h2>
+                    <button class="hidden" id="login">Entre</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h2>Insira seus dados para cadastrar-se</h2>
+                    <button class="hidden" id="register">Crie sua conta</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
